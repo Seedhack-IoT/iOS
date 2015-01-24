@@ -14,6 +14,9 @@
 		2CE446081A73C9CA001E9816 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CE446071A73C9CA001E9816 /* Images.xcassets */; };
 		2CE4460B1A73C9CA001E9816 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CE446091A73C9CA001E9816 /* LaunchScreen.xib */; };
 		2CE446171A73C9CA001E9816 /* IoTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE446161A73C9CA001E9816 /* IoTTests.m */; };
+		2CE446281A7405B8001E9816 /* MainCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE446261A7405B8001E9816 /* MainCollectionViewCell.m */; };
+		2CE4462C1A740F2B001E9816 /* RecipeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4462B1A740F2B001E9816 /* RecipeTableViewController.m */; };
+		2CE4462F1A741237001E9816 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4462E1A741237001E9816 /* AddViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		2CE446101A73C9CA001E9816 /* IoTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IoTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE446151A73C9CA001E9816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CE446161A73C9CA001E9816 /* IoTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IoTTests.m; sourceTree = "<group>"; };
+		2CE446251A7405B8001E9816 /* MainCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCollectionViewCell.h; sourceTree = "<group>"; };
+		2CE446261A7405B8001E9816 /* MainCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCollectionViewCell.m; sourceTree = "<group>"; };
+		2CE4462A1A740F2B001E9816 /* RecipeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeTableViewController.h; sourceTree = "<group>"; };
+		2CE4462B1A740F2B001E9816 /* RecipeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeTableViewController.m; sourceTree = "<group>"; };
+		2CE4462D1A741237001E9816 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		2CE4462E1A741237001E9816 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +98,12 @@
 				2CE446071A73C9CA001E9816 /* Images.xcassets */,
 				2CE446091A73C9CA001E9816 /* LaunchScreen.xib */,
 				2CE445FA1A73C9CA001E9816 /* Supporting Files */,
+				2CE446251A7405B8001E9816 /* MainCollectionViewCell.h */,
+				2CE446261A7405B8001E9816 /* MainCollectionViewCell.m */,
+				2CE4462A1A740F2B001E9816 /* RecipeTableViewController.h */,
+				2CE4462B1A740F2B001E9816 /* RecipeTableViewController.m */,
+				2CE4462D1A741237001E9816 /* AddViewController.h */,
+				2CE4462E1A741237001E9816 /* AddViewController.m */,
 			);
 			path = IoT;
 			sourceTree = "<group>";
@@ -219,9 +234,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CE4462C1A740F2B001E9816 /* RecipeTableViewController.m in Sources */,
 				2CE446031A73C9CA001E9816 /* ViewController.m in Sources */,
+				2CE4462F1A741237001E9816 /* AddViewController.m in Sources */,
 				2CE446001A73C9CA001E9816 /* AppDelegate.m in Sources */,
 				2CE445FD1A73C9CA001E9816 /* main.m in Sources */,
+				2CE446281A7405B8001E9816 /* MainCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +430,7 @@
 				2CE4461C1A73C9CA001E9816 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CE4461D1A73C9CA001E9816 /* Build configuration list for PBXNativeTarget "IoTTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +439,7 @@
 				2CE4461F1A73C9CA001E9816 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
